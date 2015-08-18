@@ -1,0 +1,26 @@
+{
+  "type":"record",
+  "name":"firstRecord",
+  "fields":[
+    {"name":"c1","type":"int"},
+    {"name":"c2","type":"long"},
+    {"name":"c3","type":"string"},
+    {"name":"c4","type":"long"},
+    {
+      "name":"arrayElement",
+      "type":{
+        "type":"array",
+        "items":{
+          "type":"int",
+          "name":"arrayItem",
+          "fields":[
+                     {
+                        "name":"arrayItem",
+                        "type":"int"
+                    }
+           ]
+           }
+        }
+    }
+]
+}

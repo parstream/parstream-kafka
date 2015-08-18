@@ -1,0 +1,8 @@
+CREATE TABLE MyTable
+(
+  c1 UINT16,
+  c2 UINT32,
+  c3 VARSTRING,
+  c4 TIMESTAMP,
+  c5 UINT16
+);

@@ -1,1 +1,11 @@
-#
+# mvn build
+target/
+dependency-reduced-pom.xml
+
+# eclispse IDE
+.checkstyle
+.classpath
+.project
+.settings/
+.metadata/
+.recommenders/
